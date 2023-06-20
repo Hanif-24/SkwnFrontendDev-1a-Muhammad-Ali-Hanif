@@ -28,7 +28,7 @@ header {
     padding-left: 10px;
 }
 .bar {
-    display: hidden;
+    display: none !important;
 }
 .navitems {
     text-decoration: none;
