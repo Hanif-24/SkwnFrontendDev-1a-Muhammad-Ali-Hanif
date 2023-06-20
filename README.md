@@ -7,3 +7,5 @@ Untuk mengakses file ini cukup melakukan :
 2. Buka index.html
 
 Atau dapat diakses dengan mengclick link dibawah :
+
+https://hanif-24.github.io/SkwnFrontendDev-1a-Muhammad-Ali-Hanif/
