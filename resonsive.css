@@ -1,0 +1,225 @@
+@media screen and (max-width: 800px) {
+
+    header {
+        padding: 8px 10px ;
+        max-width: 100vw;
+    }
+    .navlist {
+        display: none;
+    }
+    .sign-sec {
+        display: none;
+    }
+
+    .logo-img {
+        width: 16px;
+    }
+
+    .logo-txt {
+        font-size: 20px;
+    }
+    .bar {
+        display: block;
+    }
+
+    .hero {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tittle-box {
+        margin: 32px 14px;
+        max-width: 90vw;
+    }
+    .tittle {
+        margin: 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .tittle-btn {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .watch, .search {
+        padding: 16px 24px;
+        font-size: 14px;
+    }
+
+    .simple-img{
+        width: 100vw;
+        max-height: 233px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+    .product-title{
+        left: 24px;
+        bottom: 35px;
+    }
+    .product-name {
+        font-size: 24px;
+    }
+
+    .product-detail {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+
+    .choose-us {
+        padding: 24px 0;
+
+    }
+
+    .why {
+        margin: 24px 30px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .choose-tittle {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .features {
+        margin: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partnership {
+        margin: 0;
+        padding: 24px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .partner h3 {
+        font-size: 24px;
+    }
+
+    .partner p {
+        font-size: 14px;
+    }
+
+    .logos {
+        display: flex;
+        gap: 25px;
+    }
+
+    .logos img{
+        height: 17px;
+    }
+
+    .categories {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .categories-details {
+        max-width: none;
+
+    }
+    .categories-details h1{
+        text-align: center;
+        font-size: 18px; 
+        margin: 24px 0;
+    }
+    .categories-details h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    .categories-cards {
+        position: relative;
+    }
+    .category-pic {
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .category-pic img{
+        border-radius: 12px;
+        height: 132px;
+        width: 103.33px;
+    }
+
+    .product-tittle{
+        padding: 0 0 24px 0;
+        justify-content: space-around;
+    }
+
+    .pro-tittle {
+        font-size: 14px;
+    }
+
+    .pro-desc {
+        font-size: 18px;
+    }
+
+    .pro-btn {
+        padding: 12px 16px;
+        font-size: 12px;
+        min-width: 93px;
+    }
+
+    .contact {
+        padding: 32px 35px;
+    }
+
+    .contact-tittle {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-subtittle {
+        font-size: 28px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .contact-emails {
+        border-radius: 12px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        max-height: fit-content;
+    }
+
+    .email {
+        margin: 24px 0;
+        padding: 16px;
+        font-size: 12px;
+        color: black;
+    }
+
+    .email-btn {
+        padding: 16px 24px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-detail {
+        max-width: 90vw;
+        margin-bottom: 35px;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footer-side {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }

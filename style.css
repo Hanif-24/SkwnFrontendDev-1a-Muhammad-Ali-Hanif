@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Inter';
+}
+
+/* -------------------------Nav Start------------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 58px ;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+}
+
+.logo-txt{
+    color:rgba(47, 36, 31, 1);
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.bar {
+    display: none;
+}
+.navitems {
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.01em;
+    padding: 0 32px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.dropdown {
+    margin-left: 10px;
+}
+
+.sign-sec {
+    height: 48px;
+    display: flex;
+    gap: 16px;
+}
+.singup {
+    padding: 12px 24px;
+    background: #E5F0B6;
+    border-radius: 8px;
+    color: #2F241F;
+    font-weight: 500;
+    font-size: 16px;    
+}
+
+.shop {
+    padding: 12px;
+    background: #553B33;
+    border-radius: 8px;
+}
+/* -------------------------Nav End------------------- */
+
+/* -------------------------Hero Start------------------- */
+
+.hero {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    background: #FCFAFA;
+
+}
+
+.tittle-box {
+    margin-left: 142px;
+    max-width: 700px;
+}
+
+.tittle {
+    margin: 48px 0;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.01em;
+    color: #2F241F;
+}
+
+.special-tittle {
+    color: rgba(129, 114, 83, 1)
+}
+
+.tittle-btn {
+    display: flex;
+    gap: 24px;
+}
+.search {
+    display: flex;
+    gap: 20px;
+    background: #E5F0B6;
+    color: #553B33;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 36px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.watch {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 36px;
+    border: 1px solid #553B33;
+    border-radius: 12px;
+}
+
+.simple-product {
+    position: relative;
+}
+
+.product-title {
+    position: absolute;
+    bottom: 80px;
+    left: 48px;
+}
+
+.price {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 8px 16px;
+    width: fit-content;
+    font-size: 24px;
+    color: #2F241F;
+}
+
+.product-name {
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.product-detail {
+    color: white;
+    background: #2F241F;
+    border-radius: 12px;
+    padding: 16px 24px;
+}
+/* -------------------------Hero End------------------- */
+
+/* -------------------------Section Start------------------- */
+.choose-us {
+    background: #2F241F;
+    color: #E5F0B6;
+    padding: 72px 142px;
+    margin-top: -4px;
+}
+
+.why {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.choose-tittle {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.01em;
+    margin: 40px 0;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    gap: 45px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.featureicon {
+    color: white;
+    background: rgba(229, 240, 182, 0.5);
+    border-radius: 8px;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 8px;
+}
+
+.partnership {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 80px;
+    background: #FCFAFA;
+
+}
+
+.partner h3{
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.partner p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+/* -------------------------Section End------------------- */
+
+/* -------------------------Categories Start------------------- */
+.categories {
+    padding: 80px 0px;
+    display: flex;
+    gap: 48px;
+}
+
+.category-pic {
+    display: flex;
+    gap: 24px;
+}
+
+.categories-details{
+    position: relative;
+    max-width: 500px;
+}
+
+.categories-details h1{
+    margin: 32px 0;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+}
+
+.categories-details h3{
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F241F;
+}
+
+.categories-cards {
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;   
+}
+
+.cate-card{
+    padding: 20px 16px;
+    background: #FCFAFA;
+    color: #000000;
+}
+
+.cate-card.active {
+    background: #E5F0B6;
+}
+.card-head {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-body {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 18px 0;
+}
+/* -------------------------Categories End------------------- */
+
+
+/* -------------------------Product Start------------------- */
+.products{
+    background: #2F241F;
+    padding: 40px 0 20px 0;
+}
+
+.product-tittle {
+    padding: 48px 143px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro-tittle {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    color: #E5F0B6;
+}
+
+.pro-desc {
+    color: #E5F0B6;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.pro-btn {
+    background: #E5F0B6;
+    border-radius: 12px;
+    padding: 14px 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2F241F;
+
+}
+
+.product-cards {
+    display: flex;
+    gap: 36px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.pro-card {
+    position: relative;
+}
+.card-img {
+    transition: height 0.5s ease-in;
+    height: 400px;
+}
+
+.card-detail {
+    max-height: fit-content;
+    position: absolute;
+    display: none;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* ACTIVE CARD  */
+.pro-card.active .card-img {
+    transition: height 0.5s ease-in;
+    height: 472px;
+}
+
+.pro-card.active .card-detail {
+    display: inline;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+/* ACTIVE CARD  */
+
+.card-price{
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    max-width: fit-content;
+}
+
+.card-name {
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.product-btn {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin: 15px;
+}
+.arrow-btn {
+    padding: 16px;
+    background: #E5F0B6;
+    border-radius: 62px;
+    width: 56px;
+    height: 56px;    
+}
+/* -------------------------Product End------------------- */
+
+/* -------------------------Contact Start------------------- */
+.contact {
+    color: #2F241F;
+    letter-spacing: -0.01em;
+    background: #FCFAFA;
+    padding: 142px 80px;
+}
+
+.contact-tittle {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.contact-subtittle {
+    font-weight: 700;
+    font-size: 64px;
+    margin: 42px 0px;
+}
+
+.contact-emails {
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: fit-content;
+    display: flex;
+}
+
+.email {
+    width: 503px;
+    padding: 22px 36px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #553B33;
+}
+
+.email-btn {
+    padding: 28px;
+    background: #E5F0B6;
+}
+/* -------------------------Contact End------------------- */
+
+/* -------------------------Footer Start------------------- */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px 0 100px;
+}
+
+.footer-detail {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-logo {
+   display: flex;
+   gap: 5px;
+   align-items: center;
+}
+
+.footer-logo-txt {
+    font-weight: 700;
+}
+
+.footer-img{
+    width: 29px;
+    height: 29px;
+    
+}
+.footer-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+.copyright {
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+
+.footer-side {
+    display: flex;
+    gap: 93px;
+}
+
+.footer-tittle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101828;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-list {
+    margin: 30px 0 ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+/* -------------------------Footer End------------------- */
+
+
+
+/* --------------------------RESPONSIVE----------------------- */
+
+
